@@ -14,7 +14,8 @@ const WrapperItem = styled.div`
   background-color: #a8bb5c;
   /* background-color: #ffc75f; */
   border-radius: 15px;
-  width: 35%;
+  /* width: 35%; */
+  max-width: 620px;
   height: 80%;
   margin: 0 auto;
 `;

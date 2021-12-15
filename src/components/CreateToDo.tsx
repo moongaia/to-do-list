@@ -19,6 +19,9 @@ const Input = styled.input`
   outline: none;
   background-color: #a8bb5c;
   margin: 0px 8px;
+  @media screen and (max-width: 370px) {
+    width: 150px;
+  }
 `;
 const Button = styled.button`
   font-size: 25px;
